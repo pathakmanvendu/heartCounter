@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C53774A2AD079A200021986 /* heartCounter Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5C5377492AD079A200021986 /* heartCounter Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C53774F2AD079A200021986 /* heartCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53774E2AD079A200021986 /* heartCounterApp.swift */; };
+		5C5377512AD079A200021986 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5377502AD079A200021986 /* ContentView.swift */; };
+		5C5377532AD079A900021986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5377522AD079A900021986 /* Assets.xcassets */; };
+		5C5377562AD079A900021986 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5377552AD079A900021986 /* Preview Assets.xcassets */; };
+		5C5377602AD079A900021986 /* heartCounter_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53775F2AD079A900021986 /* heartCounter_Watch_AppTests.swift */; };
+		5C53776A2AD079A900021986 /* heartCounter_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5377692AD079A900021986 /* heartCounter_Watch_AppUITests.swift */; };
+		5C53776C2AD079A900021986 /* heartCounter_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53776B2AD079A900021986 /* heartCounter_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C53774B2AD079A200021986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C53773D2AD079A100021986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C5377482AD079A200021986;
+			remoteInfo = "heartCounter Watch App";
+		};
+		5C53775C2AD079A900021986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C53773D2AD079A100021986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C5377482AD079A200021986;
+			remoteInfo = "heartCounter Watch App";
+		};
+		5C5377662AD079A900021986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C53773D2AD079A100021986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C5377482AD079A200021986;
+			remoteInfo = "heartCounter Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C5377722AD079A900021986 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5C53774A2AD079A200021986 /* heartCounter Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C5377432AD079A200021986 /* heartCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heartCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5377492AD079A200021986 /* heartCounter Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "heartCounter Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C53774E2AD079A200021986 /* heartCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heartCounterApp.swift; sourceTree = "<group>"; };
+		5C5377502AD079A200021986 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C5377522AD079A900021986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C5377552AD079A900021986 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C53775B2AD079A900021986 /* heartCounter Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "heartCounter Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C53775F2AD079A900021986 /* heartCounter_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heartCounter_Watch_AppTests.swift; sourceTree = "<group>"; };
+		5C5377652AD079A900021986 /* heartCounter Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "heartCounter Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5377692AD079A900021986 /* heartCounter_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heartCounter_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		5C53776B2AD079A900021986 /* heartCounter_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heartCounter_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C53777C2AD079DC00021986 /* heartCounter Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "heartCounter Watch App.entitlements"; sourceTree = "<group>"; };
+		5C53777D2AD07A0F00021986 /* heartCounter-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "heartCounter-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C5377462AD079A200021986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5377582AD079A900021986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5377622AD079A900021986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C53773C2AD079A100021986 = {
+			isa = PBXGroup;
+			children = (
+				5C53774D2AD079A200021986 /* heartCounter Watch App */,
+				5C53775E2AD079A900021986 /* heartCounter Watch AppTests */,
+				5C5377682AD079A900021986 /* heartCounter Watch AppUITests */,
+				5C5377442AD079A200021986 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C5377442AD079A200021986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C5377432AD079A200021986 /* heartCounter.app */,
+				5C5377492AD079A200021986 /* heartCounter Watch App.app */,
+				5C53775B2AD079A900021986 /* heartCounter Watch AppTests.xctest */,
+				5C5377652AD079A900021986 /* heartCounter Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C53774D2AD079A200021986 /* heartCounter Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5C53777D2AD07A0F00021986 /* heartCounter-Watch-App-Info.plist */,
+				5C53777C2AD079DC00021986 /* heartCounter Watch App.entitlements */,
+				5C53774E2AD079A200021986 /* heartCounterApp.swift */,
+				5C5377502AD079A200021986 /* ContentView.swift */,
+				5C5377522AD079A900021986 /* Assets.xcassets */,
+				5C5377542AD079A900021986 /* Preview Content */,
+			);
+			path = "heartCounter Watch App";
+			sourceTree = "<group>";
+		};
+		5C5377542AD079A900021986 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5C5377552AD079A900021986 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C53775E2AD079A900021986 /* heartCounter Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C53775F2AD079A900021986 /* heartCounter_Watch_AppTests.swift */,
+			);
+			path = "heartCounter Watch AppTests";
+			sourceTree = "<group>";
+		};
+		5C5377682AD079A900021986 /* heartCounter Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C5377692AD079A900021986 /* heartCounter_Watch_AppUITests.swift */,
+				5C53776B2AD079A900021986 /* heartCounter_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "heartCounter Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C5377422AD079A200021986 /* heartCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C5377732AD079A900021986 /* Build configuration list for PBXNativeTarget "heartCounter" */;
+			buildPhases = (
+				5C5377412AD079A200021986 /* Resources */,
+				5C5377722AD079A900021986 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C53774C2AD079A200021986 /* PBXTargetDependency */,
+			);
+			name = heartCounter;
+			productName = heartCounter;
+			productReference = 5C5377432AD079A200021986 /* heartCounter.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5C5377482AD079A200021986 /* heartCounter Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C53776F2AD079A900021986 /* Build configuration list for PBXNativeTarget "heartCounter Watch App" */;
+			buildPhases = (
+				5C5377452AD079A200021986 /* Sources */,
+				5C5377462AD079A200021986 /* Frameworks */,
+				5C5377472AD079A200021986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "heartCounter Watch App";
+			productName = "heartCounter Watch App";
+			productReference = 5C5377492AD079A200021986 /* heartCounter Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C53775A2AD079A900021986 /* heartCounter Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C5377762AD079A900021986 /* Build configuration list for PBXNativeTarget "heartCounter Watch AppTests" */;
+			buildPhases = (
+				5C5377572AD079A900021986 /* Sources */,
+				5C5377582AD079A900021986 /* Frameworks */,
+				5C5377592AD079A900021986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C53775D2AD079A900021986 /* PBXTargetDependency */,
+			);
+			name = "heartCounter Watch AppTests";
+			productName = "heartCounter Watch AppTests";
+			productReference = 5C53775B2AD079A900021986 /* heartCounter Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C5377642AD079A900021986 /* heartCounter Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C5377792AD079A900021986 /* Build configuration list for PBXNativeTarget "heartCounter Watch AppUITests" */;
+			buildPhases = (
+				5C5377612AD079A900021986 /* Sources */,
+				5C5377622AD079A900021986 /* Frameworks */,
+				5C5377632AD079A900021986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C5377672AD079A900021986 /* PBXTargetDependency */,
+			);
+			name = "heartCounter Watch AppUITests";
+			productName = "heartCounter Watch AppUITests";
+			productReference = 5C5377652AD079A900021986 /* heartCounter Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C53773D2AD079A100021986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5C5377422AD079A200021986 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					5C5377482AD079A200021986 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					5C53775A2AD079A900021986 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 5C5377482AD079A200021986;
+					};
+					5C5377642AD079A900021986 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 5C5377482AD079A200021986;
+					};
+				};
+			};
+			buildConfigurationList = 5C5377402AD079A100021986 /* Build configuration list for PBXProject "heartCounter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C53773C2AD079A100021986;
+			productRefGroup = 5C5377442AD079A200021986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C5377422AD079A200021986 /* heartCounter */,
+				5C5377482AD079A200021986 /* heartCounter Watch App */,
+				5C53775A2AD079A900021986 /* heartCounter Watch AppTests */,
+				5C5377642AD079A900021986 /* heartCounter Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C5377412AD079A200021986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5377472AD079A200021986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5377562AD079A900021986 /* Preview Assets.xcassets in Resources */,
+				5C5377532AD079A900021986 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5377592AD079A900021986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5377632AD079A900021986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C5377452AD079A200021986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5377512AD079A200021986 /* ContentView.swift in Sources */,
+				5C53774F2AD079A200021986 /* heartCounterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5377572AD079A900021986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5377602AD079A900021986 /* heartCounter_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5377612AD079A900021986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C53776C2AD079A900021986 /* heartCounter_Watch_AppUITestsLaunchTests.swift in Sources */,
+				5C53776A2AD079A900021986 /* heartCounter_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C53774C2AD079A200021986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C5377482AD079A200021986 /* heartCounter Watch App */;
+			targetProxy = 5C53774B2AD079A200021986 /* PBXContainerItemProxy */;
+		};
+		5C53775D2AD079A900021986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C5377482AD079A200021986 /* heartCounter Watch App */;
+			targetProxy = 5C53775C2AD079A900021986 /* PBXContainerItemProxy */;
+		};
+		5C5377672AD079A900021986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C5377482AD079A200021986 /* heartCounter Watch App */;
+			targetProxy = 5C5377662AD079A900021986 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C53776D2AD079A900021986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C53776E2AD079A900021986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5C5377702AD079A900021986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "heartCounter Watch App/heartCounter Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"heartCounter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = N62N447LUW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "heartCounter-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = heartCounter;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Recording health information";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Sharing health information";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Updating health information";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heartCounter.heartCounter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		5C5377712AD079A900021986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "heartCounter Watch App/heartCounter Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"heartCounter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = N62N447LUW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "heartCounter-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = heartCounter;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Recording health information";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Sharing health information";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Updating health information";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heartCounter.heartCounter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		5C5377742AD079A900021986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N62N447LUW;
+				INFOPLIST_KEY_CFBundleDisplayName = heartCounter;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heartCounter.heartCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5C5377752AD079A900021986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N62N447LUW;
+				INFOPLIST_KEY_CFBundleDisplayName = heartCounter;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heartCounter.heartCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C5377772AD079A900021986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N62N447LUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heartCounter.heartCounter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heartCounter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/heartCounter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		5C5377782AD079A900021986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N62N447LUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heartCounter.heartCounter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heartCounter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/heartCounter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		5C53777A2AD079A900021986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N62N447LUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heartCounter.heartCounter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "heartCounter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		5C53777B2AD079A900021986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N62N447LUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heartCounter.heartCounter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "heartCounter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C5377402AD079A100021986 /* Build configuration list for PBXProject "heartCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C53776D2AD079A900021986 /* Debug */,
+				5C53776E2AD079A900021986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C53776F2AD079A900021986 /* Build configuration list for PBXNativeTarget "heartCounter Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5377702AD079A900021986 /* Debug */,
+				5C5377712AD079A900021986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C5377732AD079A900021986 /* Build configuration list for PBXNativeTarget "heartCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5377742AD079A900021986 /* Debug */,
+				5C5377752AD079A900021986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C5377762AD079A900021986 /* Build configuration list for PBXNativeTarget "heartCounter Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5377772AD079A900021986 /* Debug */,
+				5C5377782AD079A900021986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C5377792AD079A900021986 /* Build configuration list for PBXNativeTarget "heartCounter Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C53777A2AD079A900021986 /* Debug */,
+				5C53777B2AD079A900021986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C53773D2AD079A100021986 /* Project object */;
+}
